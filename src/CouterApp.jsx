@@ -1,18 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+const addValue = () => {
+	console.log('+1')
+}
+// no vuelve a rendeizar la funciona y
+
 export const CouterApp = ({value}) => {
 
-	const addValue = (event, newVaLUE) => {
-		console.log(event)
-		console.log(newVaLUE)
-	}
 
 	return (
 		<>
 		<div>CouterApp</div>
 		<h2>{ value }</h2>
-		<button onClick={ (event) => addValue(event, 'HOLA TU')}>
+		<button onClick={ addValue}>
 			+1
 		</button>
 
