@@ -5,3 +5,10 @@ html, body {
 	font-size: 1.3rem;
 	padding: 70px;
 }
+
+button {
+	padding: 1rem;
+	font-size: 1.3rem;
+	background-color: aliceblue;
+	box-shadow: 1 1 0 1;
+}
