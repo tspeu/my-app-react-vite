@@ -2,4 +2,4 @@
 yarn install
 
 
-rafc
+rafc funcional comp

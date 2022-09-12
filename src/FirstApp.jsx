@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-
-
 const msm = {
 	title: 'Title' ,
 	mes: 'Hola', 
@@ -27,7 +25,7 @@ export const FirstApp = ({title, subtitle, name}) => {
 }
 
 //  prop types
-FirstApp.prototypes = {
+FirstApp.proptypes = {
 	title: PropTypes.string.isRequired,
 	subtitle: PropTypes.number.isRequired,
 }
