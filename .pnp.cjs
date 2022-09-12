@@ -36,6 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.18"],\
             ["@types/react-dom", "npm:18.0.6"],\
             ["@vitejs/plugin-react", "virtual:efcf8c11690c91aee30143a8141153aa44bde9794f873aa5c63fe79700107d2eff0d8e32b18100dd5fbbd56c58a54a596e2cb5a6af964241168dd57dc7dce835#npm:2.0.1"],\
+            ["prop-types", "npm:15.8.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:efcf8c11690c91aee30143a8141153aa44bde9794f873aa5c63fe79700107d2eff0d8e32b18100dd5fbbd56c58a54a596e2cb5a6af964241168dd57dc7dce835#npm:18.2.0"],\
             ["vite", "virtual:efcf8c11690c91aee30143a8141153aa44bde9794f873aa5c63fe79700107d2eff0d8e32b18100dd5fbbd56c58a54a596e2cb5a6af964241168dd57dc7dce835#npm:3.0.9"]\
@@ -1695,6 +1696,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.18"],\
             ["@types/react-dom", "npm:18.0.6"],\
             ["@vitejs/plugin-react", "virtual:efcf8c11690c91aee30143a8141153aa44bde9794f873aa5c63fe79700107d2eff0d8e32b18100dd5fbbd56c58a54a596e2cb5a6af964241168dd57dc7dce835#npm:2.0.1"],\
+            ["prop-types", "npm:15.8.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:efcf8c11690c91aee30143a8141153aa44bde9794f873aa5c63fe79700107d2eff0d8e32b18100dd5fbbd56c58a54a596e2cb5a6af964241168dd57dc7dce835#npm:18.2.0"],\
             ["vite", "virtual:efcf8c11690c91aee30143a8141153aa44bde9794f873aa5c63fe79700107d2eff0d8e32b18100dd5fbbd56c58a54a596e2cb5a6af964241168dd57dc7dce835#npm:3.0.9"]\
@@ -1767,6 +1769,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["console-control-strings", "npm:1.1.0"],\
             ["gauge", "npm:4.0.4"],\
             ["set-blocking", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["object-assign", [\
+        ["npm:4.1.1", {\
+          "packageLocation": "./.yarn/cache/object-assign-npm-4.1.1-1004ad6dec-fcc6e4ea8c.zip/node_modules/object-assign/",\
+          "packageDependencies": [\
+            ["object-assign", "npm:4.1.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1863,6 +1874,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["prop-types", [\
+        ["npm:15.8.1", {\
+          "packageLocation": "./.yarn/cache/prop-types-npm-15.8.1-17c71ee7ee-c056d3f1c0.zip/node_modules/prop-types/",\
+          "packageDependencies": [\
+            ["prop-types", "npm:15.8.1"],\
+            ["loose-envify", "npm:1.4.0"],\
+            ["object-assign", "npm:4.1.1"],\
+            ["react-is", "npm:16.13.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["react", [\
         ["npm:18.2.0", {\
           "packageLocation": "./.yarn/cache/react-npm-18.2.0-1eae08fee2-88e38092da.zip/node_modules/react/",\
@@ -1893,6 +1916,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@types/react",\
             "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-is", [\
+        ["npm:16.13.1", {\
+          "packageLocation": "./.yarn/cache/react-is-npm-16.13.1-a9b9382b4f-f7a19ac349.zip/node_modules/react-is/",\
+          "packageDependencies": [\
+            ["react-is", "npm:16.13.1"]\
           ],\
           "linkType": "HARD"\
         }]\

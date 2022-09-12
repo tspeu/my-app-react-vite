@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import PropTypes from 'prop-types';
+
 
 
 const msm = {
@@ -9,15 +11,29 @@ const msm = {
 // si no hay dependencia debe ir fuera el Functional Component
 const getSaludo = (nombre) => `Saluda a  ${nombre}`;
 
-export const FirstApp = ({title, subtitle}) => {
+export const FirstApp = ({title, subtitle, name}) => {
 	// console.log(title);
+	// if (!title) { throw new Error('EROOR')}
 	return (
 		<>
 		<h1>FirstApp {title}</h1>
-		<p> {subtitle + 1 }</p>
+		<p> {subtitle }</p>
+		<p> {name }</p>
 		<p>{getSaludo('pepe')}</p>
 		{/* <p>{ JSON.stringify(msm) }</p> */}
 
 		</>
 	)
+}
+
+//  prop types
+FirstApp.prototypes = {
+	title: PropTypes.string.isRequired,
+	subtitle: PropTypes.number.isRequired,
+}
+
+FirstApp.defaultProps = {
+	title: 'no hay nada',
+	subtitle: 500,
+	name: "SOPA"
 }
