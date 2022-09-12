@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 export const CouterApp = ({value}) => {
 	
-	const [counter, setCounter  ] = useState(0);
+	const [counter, setCounter  ] = useState(value);
 
 	const addValue = () => {
 		// console.log('addValue')

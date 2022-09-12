@@ -8,6 +8,6 @@ import './styles.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <FirstApp title="pepe" subtitle={1} /> */}
-    <CouterApp  value={1} />
+    <CouterApp  value={15} />
   </React.StrictMode>
 )
